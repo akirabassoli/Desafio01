@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header div {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+
+
+}
+
+h2 {
+    font-weight: 500;
+}
+
+p {
+    font-size: 15px;
+}
+
+
+#logo {
+    width: 120px;
+    object-fit: cover;
+    object-position: left center;
+}
+
+#search-logo {
+    height: 50%;
+    width: auto;
+}
+
+.search-section {
+    width: 100%;
+
+    height: 638px;
+    background-image: url(imagens/london.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-box {
+    background-color: white;
+    height: 41%;
+    width: 65%;
+}
+
+.search-depto {
+    background-color: #000000;
+    color: white;
+    height: 15%;
+    display: flex;
+}
+
+div.depto {
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.depto-selected {
+    background-color: #F44336;
+}
+
+.icon {
+    height: 35%;
+    margin: 0 15px;
+}
+
+.search-input {
+    height: 85%;
+    padding: 0 15px;
+}
+
+.search-input-line {
+    height: 33.33%;
+    display: flex;
+    align-items: end;
+}
+
+.search-input-line h2 {
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+#input-city {
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Raleway', sans-serif;
+}
+
+#tb-from,
+#tb-to {
+
+    padding: 10px 5px;
+    width: 95%;
+    border-color: #ccc;
+    border-style: ridge;
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-box {
+    width: 50%;
+}
+
+.text-box p {
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+
+.btn {
+    padding: 10px 15px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-search {
+
+    background-color: #616161;
+    position: relative;
+    top: -35px;
+
+    font-size: 14px;
+}
+
+.container {
+    margin: 30px auto 0 auto;
+    width: 80%;
+    height: auto;
+}
+
+.container h2 {
+    margin-bottom: 17px;
+}
+
+.container p {
+    margin-bottom: 14px;
+}
+
+.section-grid {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    grid-template-areas:
+        "cq cq ny sf"
+        "cq cq ps pr"
+    ;
+}
+
+.section-grid img {
+    width: 100%;
+
+}
+
+.cq {
+    width: 100%;
+    grid-area: cq;
+}
+
+.ny {
+    grid-area: ny;
+}
+
+.sf {
+    grid-area: sf;
+}
+
+.ps {
+    grid-area: ps;
+}
+
+.pr {
+    grid-area: pr;
+}
+
+.duas-col {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.card {
+    width: 50%;
+    background-color: #F44336;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-info {
+    padding-left: 15px;
+    background-color: white;
+    height: 190px;
+}
+
+.card-info h2 {
+    padding-top: 10px;
+}
+
+.card-info p {
+    padding-top: 7px;
+}
+
+.card-sub-info {
+    color: #a5a4a4;
+    font-size: 15px;
+}
+
+.link {
+    display: block;
+    margin: 30px 20px;
+    text-decoration: none;
+    color: #000000;
+    height: 50px;
+
+}
+
+
+
+.subscribe {
+
+    background-color: #616161;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.subscribe p,
+label {
+    font-size: 14px;
+}
+
+.subscribe input {
+    width: 99.5%;
+    height: 30px;
+    padding-left: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-submit {
+    background-color: salmon;
+    border: none;
+    margin-top: 15px;
+}
+
+.subscribe h2 {
+    margin-top: 10px;
+}
+
+.contacts-grid {
+    display: flex;
+    font-size: 14px;
+    width: 500px;
+    height: 1.5em;
+}
+
+.contacts-grid-icon {
+    width: 30px;
+}
+
+.contacts-grid img {
+
+    height: 1em;
+}
+
+.form {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form-input input {
+    width: 100%;
+    height: 3em;
+    margin: 5px 0;
+    padding-left: 5px;
+    border-color: #d1cfcf;
+    border-style: solid;
+    color: red;
+
+}
+
+#mensagem {
+    color: red;
+}
+
+.btn-message {
+    background-color: #000000;
+    margin-top: 5px;
+}
+
+footer {
+    margin: 30px 0;
+    text-align: center;
+    color: #616161;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.social-media-icon img {
+    height: 1.3em;
+}
+
+p.credits {
+    font-size: 12px;
+}

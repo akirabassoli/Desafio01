@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <title>Desafio DevMedia - 01</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img id="logo" src="imagens/123-logo.png" alt="logo 123 milhas">
+            <img id="search-logo" src="imagens/search-logo.png" alt="icone lupa">
+        </div>
+    </header>
+
+
+    <section class="search-section">
+        <div id="search-box">
+            <div class="search-depto">
+                <div class="depto depto-selected">
+                    <img class="icon" src="imagens/airplane-icon.png" alt="icone avião">
+                    Flight
+                </div>
+                <div class="depto">
+                    <img class="icon" src="imagens/hotel-icon.png" alt="icone hotel">
+                    Hotel
+                </div>
+                <div class="depto">
+                    <img class="icon" src="imagens/car-icon.png" alt="icone carro">
+                    Rental
+                </div>
+            </div>
+            <div class="search-input">
+                <div class="search-input-line">
+                    <h2>Travel the world with us</h2>
+                </div>
+                <div class="search-input-line" id="input-city">
+                    <div class="text-box">
+                        <p>From</p>
+                        <input type="text" name="tb-from" id="tb-from" placeholder="Departing from">
+                    </div>
+                    <div class="text-box">
+                        <p>To</p>
+                        <input type="text" name="tb-to" id="tb-to" placeholder="Arriving at">
+                    </div>
+                </div>
+                <div class="search-input-line">
+                    <button class="btn btn-search">Search and find dates</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="container">
+        <h2>Good Offers Right Now</h2>
+        <p>Up to <strong>50%</strong> discount</p>
+        <div class="section-grid">
+            <img class="cq" src="imagens/cinqueterre.jpg" alt="">
+            <img class="ny" src="imagens/newyork.jpg" alt="">
+            <img class="sf" src="imagens/sanfran.jpg" alt="">
+            <img class="ps" src="imagens/pisa.jpg" alt="">
+            <img class="pr" src="imagens/paris.jpg" alt="">
+        </div>
+    </section>
+    <section class="container">
+        <h2>Explore the nature</h2>
+        <p>Travel with us and see nature at it finest</p>
+        <div class="duas-col">
+            <div class="card">
+                <img src="imagens/ocean.jpg" alt="foto do oceano na Noruega">
+                <div class="card-info">
+                    <h2>West Coast, Norway</h2>
+                    <p class="card-sub-info"> Roundtrip from $79</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <a href="#" class="link">Buy Tickets</a>
+
+                </div>
+
+            </div>
+            <div class="card">
+                <img src="imagens/mountains.jpg" alt="foto das montanhas na Austria">
+                <div class="card-info">
+                    <h2>Mountains, Austria</h2>
+                    <p class="card-sub-info"> Roundtrip from $39</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <a href="#" class="link">Buy Tickets</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="subscribe">
+            <h2>Get the best offers first!</h2>
+            <p>Join our newsletter.</p>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Your e-mail address">
+            <button class="btn btn-submit" type="submit">Subscribe</button>
+        </div>
+    </section>
+    <section class="container">
+        <div class="contacts">
+            <h2>Contact</h2>
+            <p>Let us book your next trip!</p>
+            <div class="contacts-grid">
+                <div class="contacts-grid-icon">
+                    <img class="contacts-icon" src="imagens/location-icon.png" alt="icone de localização">
+                </div>
+                <address>Chicago, US</address>
+            </div>
+            <div class="contacts-grid">
+                <div class="contacts-grid-icon">
+                    <img class="contacts-icon" src="imagens/phone-icon.png" alt="icone de telefone">
+                </div>
+                <p>Phone: +00 151515</p>
+            </div>
+            <div class="contacts-grid">
+                <div class="contacts-grid-icon">
+                    <img class="contacts-icon" src="imagens/letter-icon.png" alt="icone de carta">
+                </div>
+                <p>Email: mail@mail.com</p>
+            </div>
+        </div>
+        <form class="form">
+            <div class="form-input">
+                <label for="name"></label>
+                <input id="name" type="text" name="name" placeholder="Name">
+            </div>
+            <div class="form-input">
+                <label for="email2"></label>
+                <input id="email2" type="email" name="email2" placeholder="Email">
+            </div>
+            <div class="form-input">
+                <label for="mensagem"></label>
+                <input id="mensagem" type="text" name="mensagem" placeholder="Mensagem">
+            </div>
+            <button type="submit" class="btn btn-message">SEND MESSAGE</button>
+        </form>
+
+
+
+    </section>
+</body>
+<footer>
+    <p>Find Us On</p>
+    <div class="social-media-icon">
+        <img src="imagens/social-media-logo.png" alt="icones de midia social">
+    </div>
+    <p class="credits">Powered by <a href="#">w3.css</a></p>
+</footer>
+
+</html>
